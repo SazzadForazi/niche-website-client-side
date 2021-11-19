@@ -1,0 +1,24 @@
+.banner {
+    background-image: url("https://cdn.luxe.digital/media/2020/12/15110747/fastest-cars-world-2021-luxe-digital%402x-1536x768.jpg"),
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 1020px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .title {
+    color: rgb(251, 248, 248);
+    font-weight: bold;
+    font-size: 80px;
+  }
+  .about-btn {
+    background-color: rgb(218, 32, 32);
+    outline: none;
+    border: none;
+    padding: 17px 34px;
+    color: white;
+    border-radius: 15px;
+  }

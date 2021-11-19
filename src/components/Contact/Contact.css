@@ -1,0 +1,21 @@
+.form-container{
+    background-color: #474d5d;
+    color: white;
+    padding: 20px;
+   margin-bottom: 5px;
+   
+}
+
+.inner-form{
+    background-color: white;
+    width: 1020px;
+    /* width: 50%; */
+    margin-right: 10px;
+}
+.contact{
+    font-size: 30px;
+}
+.form-control{
+    width: 1020px;
+    margin: 5px 0;
+}

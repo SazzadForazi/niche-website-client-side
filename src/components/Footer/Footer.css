@@ -1,0 +1,24 @@
+.footer{
+    background-color: rgb(20, 20, 20);
+    padding: 50px;
+    color: white;
+    
+    
+    }
+    .circle-footer{
+        width:60px;
+        height: 60px;
+        border-radius: 50%;
+        display: inline-block;
+        background-color: #fff;
+        font-size: 40px;
+        text-align: center;
+        color: #2bb3dd;
+        
+    }
+    .circle-footer:hover{
+       
+        background-color:#585F73;
+      
+        
+    }
