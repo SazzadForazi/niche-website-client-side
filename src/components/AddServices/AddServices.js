@@ -7,7 +7,10 @@ const AddServices = () => {
         handleSubmit,
         formState: { errors },
     } = useForm();
+
+
     const onSubmit = (data) => {
+        console.log(data);
         fetch("http://localhost:5000/addServices", {
             method: "POST",
             headers: { "content-type": "application/json" },
@@ -15,7 +18,7 @@ const AddServices = () => {
         })
             .then((res) => res.json())
             .then((result) => console.log(result));
-        console.log(data);
+
     };
     return (
         <div>

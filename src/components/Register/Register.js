@@ -4,8 +4,8 @@ import useFirebase from '../../Hook/useFirebase';
 import './Register.css'
 
 const Register = () => {
-    const { googleSignIn, handleUserRegister } = useFirebase();
-    const { register, handleSubmit, watch, errors } = useForm();
+    const { handleUserRegister } = useFirebase();
+    const { register, handleSubmit } = useForm();
     const onSubmit = (data) => {
         handleUserRegister(data.email, data.password);
         console.log(data);
